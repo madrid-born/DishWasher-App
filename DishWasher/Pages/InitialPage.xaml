@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DishWasher.Pages.InitialPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Top Section -->
+        <Label Grid.Row="0" Text="بیناموس ما داریم اینجا زحمت میکشیم" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="24" Padding="100" />
+
+        <!-- Middle Section -->
+        <Image Grid.Row="1" Source="pishro.jpg" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+        <!-- Bottom Section -->
+        <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" Padding="50">
+            <Button Text="Make a new group" TextColor="White" BackgroundColor="Purple" Clicked="NewGroup_Clicked" Margin="0,0,10,0" />
+            <Button Text="My Groups" TextColor="White" BackgroundColor="Purple" Clicked="Groups_Clicked" Margin="10,0,0,0" />
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

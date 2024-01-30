@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DishWasher.Pages.NewGroupPage"
+             Title="Group Information">
+    <StackLayout Margin="20">
+        <!-- Name of Group -->
+        <Entry x:Name="GroupNameEntry" Placeholder="Name of Group" />
+
+        <!-- Members Section -->
+        <StackLayout x:Name="MembersLayout">
+            <Entry Placeholder="Barde 1" />
+            <Entry Placeholder="Barde 2" />
+        </StackLayout>
+        <Button Text="+" Clicked="AddMemberClicked" />
+
+        <!-- Submit Button -->
+        <Button Text="Submit" Clicked="SubmitClicked" />
+        
+        <Frame BackgroundColor="Purple"
+               WidthRequest="56" HeightRequest="56"
+               CornerRadius="28"
+               VerticalOptions="End" HorizontalOptions="Start"
+               Margin="16">
+
+            <!-- You can add an icon or text inside the button -->
+            <!-- Example with an icon using FontImageSource -->
+            <!--<<Frame.Content>
+                <Image Source="your_icon.png" WidthRequest="24" HeightRequest="24"
+                       VerticalOptions="Center" HorizontalOptions="Center"
+                       Margin="4" />
+            </Frame.Content>-->
+
+            <!-- Example with text -->
+            <Frame.Content>
+                <Label Text="Click" FontSize="14" TextColor="White"
+                       VerticalOptions="Center" HorizontalOptions="Center"
+                       Margin="4" />
+            </Frame.Content>
+        </Frame>
+    </StackLayout>
+</ContentPage>

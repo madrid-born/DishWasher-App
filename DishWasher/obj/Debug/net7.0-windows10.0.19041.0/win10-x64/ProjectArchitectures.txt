@@ -1,0 +1,1 @@
+D:\project\coding  shit\projects\c#\MAUI\DishWasher\DishWasher\DishWasher.csproj;x64

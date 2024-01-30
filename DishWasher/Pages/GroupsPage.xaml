@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DishWasher.Pages.GroupsPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Frame CornerRadius="25" BorderColor="Transparent">
+                <VerticalStackLayout Spacing="20">
+                    <Label Text="Groups" TextColor="Black" FontSize="Large"/>
+                    <CollectionView x:Name="GroupsNames">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Vertical" />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Border
+                                    VerticalOptions="Fill"
+                                    StrokeThickness="0"
+                                    BackgroundColor="LightGray"
+                                    Padding="20">
+
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="20"/>
+                                    </Border.StrokeShape>
+
+                                    <Grid>
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="GroupTapped" CommandParameter="{Binding .}" />
+                                        </Grid.GestureRecognizers>
+                                        <StackLayout Spacing="5">
+                                            <Label Text="{Binding .}" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+                                        </StackLayout>
+                                        <Button Text="Setting" Clicked="Button_OnClicked" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

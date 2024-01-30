@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DishWasher
+build_property.ProjectDir = D:\project\coding  shit\projects\c#\MAUI\DishWasher\DishWasher\
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Pages/ActionSetting.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Pages.ActionSetting.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ActionSetting.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ActionSetting.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Pages/GroupsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Pages.GroupsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\GroupsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\GroupsPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Pages/InitialPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Pages.InitialPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\InitialPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\InitialPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Pages/NewData.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Pages.NewData.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NewData.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NewData.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Pages/NewGroupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Pages.NewGroupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NewGroupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NewGroupPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Pages/PastData.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Pages.PastData.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PastData.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PastData.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Pages/ResultPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Pages.ResultPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ResultPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ResultPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Pages/Setting.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Pages.Setting.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Setting.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Setting.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/DishWasher/DishWasher/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DishWasher.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
